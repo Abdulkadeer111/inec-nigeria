@@ -1,0 +1,308 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.top-header{
+	position: relative;
+	background-color: #5CB85C;
+	height: 30px;
+	display: flex; 
+	justify-content: space-around;
+	color: #fff;
+	padding-top: 10px;
+}
+
+.header-phone{
+	display: flex; 
+	justify-content: space-around;
+}
+
+.header-address{
+	display: flex; 
+	justify-content: space-around;
+}
+
+.header-icons{
+	margin: none;
+	
+}
+
+#facebook{
+	background-color: #5571B0;
+	color: #fff;
+	padding: 10px;
+	margin: none; 
+}
+
+#twitter{
+	color: #fff;
+	background-color: #8ABCF1;
+	padding: 10px; 
+}
+
+#instagram{
+	background-color: #E47486;
+	color: #fff;
+	padding: 10px; 
+}
+
+#youtube{
+	background-color: red;
+	color: #fff;
+	padding: 10px; 
+}
+
+.header-logo{
+	background-color: #fff;
+	height: 120px;
+}
+.logo{
+	padding:15px 0 0 100px;
+}
+
+
+	/*BEGINNING OF MAIN HEADER*/
+.main-header{
+	background-color: #fff;
+	height: 88px;		
+}
+
+nav{
+	display: flex;
+	padding: 5px 3%;
+	justify-content: space-between;
+}
+
+nav ul{
+	flex: 1;
+	text-align: right;
+	padding-top: 18px;
+
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 16px;
+
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #000;
+}
+
+/*BEGINNIG OF TOP BODY*/
+.top-body{
+	background-image: url('img/inec-banner-04-1.png');
+	background-blend-mode: darken;
+	height: 600px;
+	width: auto;
+}
+
+.election{	
+	margin: auto;
+	width: 50%;	
+	padding-top: 180px;	
+}
+
+.election h1{
+	font-weight: bold;
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#read{	
+	color: #fff;
+	background-color: green;
+	border-style: none;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	padding: 15px;
+
+}
+
+
+
+
+/*Beginining of the COUNTER_SECTION*/
+.counter{
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	background-color: #5CB85C; 
+	height: 200px;
+	width: auto;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 20px;
+	color: #fff; 
+}
+
+.counter h1{
+	font-size: 60px;
+	padding-top: 10px;
+}
+
+.counter i{
+font-size: 30px;
+}
+
+#counter-button{
+	padding: 10px 30px 10px 30px;
+	background-color: green;
+	border: none;
+	color: #fff;
+}
+/*BEGINNING OF COUNTER COUNT DOWN*/
+.count-down{
+	background-image: url('img/flag.jpg');
+	height: 135px;
+	margin: 0 80px 0 80px;
+}
+
+.inner-section{
+	color: #fff;
+	text-align: center;
+	padding-top: 40px;
+}
+
+
+
+
+/*BEGINNING OF GRID CONTAINER*/
+
+.grid-container{
+	display: grid;
+	grid-template-columns: auto auto auto ;
+	grid-gap: 30px;
+	padding: 0 10px 10px 10px;	
+	margin: 0 90px 70px 90px;
+}
+
+.grid-container> div{
+	background-color: #F9F9F9;
+	text-align: center;
+	padding: 20px;
+	height: 270px;
+	width: auto;
+	border-radius: 10px;
+}
+
+.grid-container h2{
+	font-size: 25px;
+	padding: 22px 0 20px 0;
+}
+
+#view{
+	margin: 15px 0 0 0;
+	padding: 10px 15px 10PX 15px;
+	background-color: #5CB85C;
+	border-style: none;
+	color: #fff;
+}
+
+
+
+/*BEGINNING OF PLAYSTORE SECTION*/
+.playstore{
+	background-image: url('img/another_background.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 250px;
+	color: #fff;
+
+}
+
+
+
+.playstore-set{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+}
+
+.playstore-set h2{
+	font-weight: bold;
+	font-size: 30px;
+	padding: 0px 0 10px 0;
+	
+}
+
+.users{
+	padding: 115px 0 0 250px;
+}
+
+#connect{
+	padding: 5px 15px 5px 6px;
+	background-color: green;
+	border: none;
+	color: #fff;
+}
+
+.connnect-inec{	
+	align-items: left;
+	padding: 50px 0 0 50px;
+}
+
+/*BEGINNING OF TOP FOOTER*/
+
+.top-footer{
+	background-image: url('img/slide1.png');
+	background-position: center;
+	height: 620px;	
+}
+
+.top-footer-grid{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 40px;	
+	padding: 40px 0 0 100px;
+	color: #fff;
+}
+
+.top-footer-grid h2{
+	padding-bottom: 20px;
+}
+
+
+
+
+.footer-menu ul{
+	list-style: none;
+}
+
+.footer-menu ul li{
+	line-height: 30px;
+}
+
+.footer-menu ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+#faqs{
+	display: inline-flex;
+	justify-content: space-around;
+}
+
+.servicom{
+	padding: 180px 0 0 50px;
+}
+
+
+/*BEGINNING OF MAIN FOOTER*/
+.main-footer{
+	background-color: #000; 
+	height: 80px;
+	width: auto;
+}
+
+.main-footer p {
+	color: #fff;
+	text-align: center;
+	padding-top: 32px;
+}
